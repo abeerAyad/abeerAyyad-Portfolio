@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abeer Portfolio</title>
+    <!-- link css files -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-user"></i>
+            <a href="#">Abeer</a>
+        </div>
+        <input type="checkbox" id="click">
+        <div class="bars">
+           
+        <label id="menu" for="click">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        </div>
+        <nav>
+            <ul class="links">
+                <li class="items">
+                    <a href="#home" class="link">home</a>
+                </li>
+                <li class="items">
+                    <a href="#about" class="link">about</a>
+                </li>
+                <li class="items">
+                    <a href="#portfolio" class="link">portfolio</a>
+                </li>
+                <li class="items">
+                    <a href="#contact" class="link">contact</a>
+                </li>
+            </ul>
+            
+        </nav>
+       
+    </header>
+
+    <div id="home">
+        <div class="landing">
+        <div class="info">
+            <p>Welcome to my portfolio website!</p>
+            <h1>I,m a <span>Frontend Developer</span></h1>
+            <div class="more-details">
+                <a href="#about" class="about-me">more about me</a>
+                <a href="#contact" class="cntact-me">hire me</a>
+
+            </div>
+        </div>
+        <div class="my-photo">
+            <img src="img/myPhoto.svg" alt="my-photo">
+        </div>
+            </div>
+    </div>
+
+    <section id="about">
+        <div class="about-details">
+            <div class="aboutme-information">
+                <div class="aboutme-img">
+                    <img src="img/myPhoto.svg" alt="my-photo">
+                </div>
+                <div class="aboutme-info">
+                <h2>about me</h2>
+                    <ul>
+                        <li>
+                            <p>first Name</p> 
+                            <span>Abeer</span>
+                        </li>
+
+                        <li>
+                            <p>last Name</p>
+                            <span>ayyad</span>
+                        </li>
+
+                        <li>
+                            <p>birth date</p>
+                            <span>20 july 2000</span>
+                        </li>
+
+                        <li>
+                            <p>country</p>
+                            <span>palestine</span>
+                        </li>
+
+                        <li>
+                            <p>language</p>
+                            <span>arabic english</span>
+                        </li>
+
+                        <li>
+                            <p>phone</p>
+                            <span>+972 592 938 453</span>
+                        </li>
+                        <li>
+                            <p>email</p>
+                            <span>abeerayyad2000@gmail.com</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portofolio">
+        <h2>My Portofolio</h2>
+
+        <div class="my-project">
+            <div class="card">
+                <img src="img/codewars.png" alt="codewars.png">
+                <div class="link-website">
+                    <a href="https://www.codewars.com/users/Abeer-Ayad">
+                        <i class="fa-solid fa-link"></i>codewars</a>
+                    
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/freecodcamp.jpg" alt="freecodcamp.jpg">
+                <div class="link-website">
+                    <a href="https://www.freecodecamp.org/Abeer_Ayad">
+                    <i class="fa-solid fa-link"></i>freecodcamp</a>
+                </div>           
+            </div>
+
+            <div class="card">
+            <img src="img/githubs.png" alt="github.png">
+            <div class="link-website">
+                <a href="https://github.com/abeerAyad">
+                <i class="fa-solid fa-link"></i>github</a>     
+            </div>
+            </div>
+
+            <div class="card">
+                <img src="img/logo.jpg" alt="img/codewars.png">
+                <div class="link-website">
+                    <a href="https://abeerayad.github.io/Rock-Paper-Scissor-Game/">
+                        <i class="fa-solid fa-link"></i>rock paper scissor</a>
+                </div>
+            
+            </div>
+        
+            
+        </div>
+    </section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <div class="contact-center flex">
+        <div class="right">
+            <form id="contactForm" name="contactForm" class="contactForm">
+                <div class="form-group">
+                    <label class="label" for="name">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Name" />
+                </div>
+
+                <div class="form-group">
+                    <label class="label" for="email">Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
+                </div>
+
+                <div class="form-group">
+                    <label class="label" for="subject">Subject</label>
+                    <input type="text" list="subjects" class="form-control" name="subject" id="subject"
+                        placeholder="Subject" dir="ltr" />
+                </div>
+
+                <div class="form-group">
+                    <label class="label" for="#">Message</label>
+                    <textarea name="message" class="form-control message" id="message" cols="30" rows="4"
+                        placeholder="Message"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Send Message" class="btn" />
+                </div>
+            </form>
+        </div>
+        <div class="left">
+            <div class="contactus">
+                <img src="img/contact.svg" alt="" />
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <footer class="flex">
+        <div class="copy-right">
+            <p>Created By <span>AbeerAyyad</span> | © 2023 All rights reserved.</p>
+        </div>
+        <div  class="social-media">
+                        <ul class="flex">
+                            <li>
+                                <a href="https://www.facebook.com/abeer.ayyad.54">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/abeerAyad">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+            
+                            <li>
+                                <a href="https://www.instagram.com/abeerayyad20/">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+            
+                            <li>
+                                <a href="https://www.linkedin.com/in/abeer-ayyad-47a343248/">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+    </footer>
+</body>
+</html>
