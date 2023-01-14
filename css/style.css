@@ -152,6 +152,10 @@ nav ul li a {
     background-color: var(--main-color);
 }
 
+.my-photo {
+    margin-top: 51px;
+}
+
 .my-photo img {
     width: 80%;
     height: 100%;
@@ -357,7 +361,7 @@ header #menu {
 
 /* Media Query Responsive */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
 header {
     position: sticky;
@@ -398,7 +402,7 @@ nav ul li {
     justify-content: center;
     padding-right: 0;
     padding-left: 2em;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .my-photo {
